@@ -492,6 +492,9 @@ setuptools.setup(
     url="http://virt-manager.org",
     license="GPLv2+",
 
+    packages=[],
+    py_modules=[],
+    configuration=[],
     # These wrappers are generated in our custom build command
     scripts=([
         "build/virt-manager",
